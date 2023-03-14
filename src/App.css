@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  height: 100px;
+  background-color: black;
+}
+
+
+.logo{
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  color:#FFFFFF;
+ margin-top: 48px;
+ margin-left: 113px;
+}
+
+.logout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+
+  width: 128px;
+  height: 48px;
+ margin-top: 48px;
+ margin-right: 113px;
+  /* Text/Color-link */
+  
+  background: #9BFF00;
+  border-radius: 40px;
+  /* Inside auto layout */
+ 
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.texts{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  
+  font-feature-settings: 'salt' on;
+  
+  /* Greyscale/900 */
+  
+  color: #050505;
+}
+
+/*content header */;
+
+.content-headers{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.content{
+  background-color: #050505;
+  width: 100%;
+  height:1024px;
+ padding: 80px 110px;
+}
+.text-header{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 40px;
+line-height: 48px;
+color:#ffff
+}
+.flexcontent{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1D1D1D;
+  padding:14px 8px;
+  border-radius: 16px;
+   width:418px;
+}
+
+.flextext2{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 14px;
+line-height: 20px;
+
+
+}
+
+.dot{
+  width: 4px;
+height: 4px;
+background: #696969;
+border-radius: 50%;
+}
+
+
+  /* .table {
+    margin-top:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  } */
+  
+.custom{
+  display: grid;
+  width:100%;
+  grid-template-columns: 10% 35% 35% 20%;
+}
+.tb{
+  padding:0px 20px;
+ 
+}
+.td{
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  margin:20px 0px;
+}
+.tabletext{
+  font-style: normal;
+  font-family: 'Inter';
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20px;
+  color:#666666;
+}
